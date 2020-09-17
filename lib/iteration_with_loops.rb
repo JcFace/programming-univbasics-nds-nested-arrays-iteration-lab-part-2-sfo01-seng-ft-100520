@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
  while count < src.length do
    variable = 100
    inner_count = 0
-   while inner_count < src[count][inner_count].length do
+   while inner_count < src[count].length do
      if src[count][inner_count] < variable 
        variable = src[count][inner_count]
      end 
