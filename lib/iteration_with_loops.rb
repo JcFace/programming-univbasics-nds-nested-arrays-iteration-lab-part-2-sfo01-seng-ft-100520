@@ -1,7 +1,8 @@
 def find_min_in_nested_arrays(src)
   new_array =[]
  count = 0
- while count
+ while count < src.length do 
+   inner_count = 0 
 end
 
 
